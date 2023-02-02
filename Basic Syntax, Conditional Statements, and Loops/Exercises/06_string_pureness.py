@@ -1,0 +1,9 @@
+number_strings = int(input())
+
+for current_string in range(number_strings):
+    string = input()
+    if "," in string or '.' in string or '_' in string:
+        print(f"{string} is not pure!")
+    else:
+        print(f"{string} is pure.")
+
